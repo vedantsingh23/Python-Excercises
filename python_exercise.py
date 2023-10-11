@@ -8,3 +8,10 @@ Twinkle, twinkle, little star,
 
 print(twinkle)
 
+user_input = input("Enter a series of numbers seperated by commas: ")
+a = user_input.split(',')
+List = [int(item) for item in a]
+Tuple = tuple(int(item) for item in a)
+print("List: " + str(List))
+print("Tuple: " + str(Tuple))
+
