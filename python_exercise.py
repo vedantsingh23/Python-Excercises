@@ -29,5 +29,7 @@ vowels = ["a", "e", "i", "o", "u"]
 for i in letter:
     if i in vowels and i in letter:
         print("Your letter is a vowel")
+    else:
+        print("Your letter is not a vowel")
 
 
